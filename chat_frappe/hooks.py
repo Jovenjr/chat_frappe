@@ -68,14 +68,15 @@ after_install = "chat_frappe.install.after_install"
 
 # Fixtures
 # --------
-fixtures = [
-	{
-		"dt": "Agent",
-		"filters": [
-			["agent_name", "in", ["Ingeniero TI", "Ingeniero Nube", "Asesor Legal"]]
-		]
-	}
-]
+# Fixtures will be loaded after migration
+# fixtures = [
+# 	{
+# 		"dt": "Agent",
+# 		"filters": [
+# 			["agent_name", "in", ["Ingeniero TI", "Ingeniero Nube", "Asesor Legal"]]
+# 		]
+# 	}
+# ]
 
 # Uninstallation
 # ------------
