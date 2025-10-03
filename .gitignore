@@ -1,0 +1,11 @@
+*.pyc
+*.egg-info
+*.swp
+*.swo
+.DS_Store
+__pycache__
+*.compiled
+node_modules
+dist
+.venv
+*.log

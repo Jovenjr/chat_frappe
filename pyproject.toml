@@ -1,0 +1,22 @@
+[project]
+name = "chat_frappe"
+authors = [
+    {name = "Your Company", email = "info@yourcompany.com"}
+]
+description = "Sistema de chat con agentes IA para Frappe"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # frappe is installed and managed by bench
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]
+# bench setup requirements --dev
+
+[project.entry-points."frappe"]
+chat_frappe = "chat_frappe.hooks"

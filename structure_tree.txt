@@ -1,0 +1,69 @@
+Listado de rutas de carpetas
+El número de serie del volumen es 5EA4-906B
+C:.
+|   .gitignore
+|   API_CONFIG.md
+|   CHECKLIST.md
+|   hooks.py
+|   INSTALL.md
+|   LICENSE
+|   pyproject.toml
+|   README.md
+|   STRUCTURE.md
+|   structure_tree.txt
+|   __init__.py
+|   
++---chat_frappe
+|   |   agent_service.py
+|   |   api.py
+|   |   install.py
+|   |   __init__.py
+|   |   
+|   +---config
+|   |       chat_frappe.py
+|   |       __init__.py
+|   |       
+|   +---doctype
+|   |   |   __init__.py
+|   |   |   
+|   |   +---agent
+|   |   |       agent.json
+|   |   |       agent.py
+|   |   |       test_agent.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---chat_conversation
+|   |   |       chat_conversation.json
+|   |   |       chat_conversation.py
+|   |   |       test_chat_conversation.py
+|   |   |       __init__.py
+|   |   |       
+|   |   \---chat_message
+|   |           chat_message.json
+|   |           chat_message.py
+|   |           test_chat_message.py
+|   |           __init__.py
+|   |           
+|   +---fixtures
+|   |       agent.json
+|   |       
+|   +---page
+|   |   |   __init__.py
+|   |   |   
+|   |   \---chat
+|   |           chat.js
+|   |           chat.json
+|   |           __init__.py
+|   |           
+|   \---public
+|       +---css
+|       |       chat_frappe.css
+|       |       
+|       \---js
+|               chat_frappe.js
+|               
+\---config
+        desktop.py
+        docs.py
+        __init__.py
+        
