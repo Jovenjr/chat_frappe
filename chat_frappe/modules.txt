@@ -1,1 +1,1 @@
-Chat Frappe
+chat_frappe
