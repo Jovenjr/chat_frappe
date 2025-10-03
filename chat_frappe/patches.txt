@@ -1,0 +1,4 @@
+# Database migrations and patches
+# Add patch entries here when needed
+# Example:
+# chat_frappe.patches.v1_0.update_agent_permissions
