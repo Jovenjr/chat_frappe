@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include INSTALL.md
+include pyproject.toml
+include hooks.py
+
+recursive-include chat_frappe *.py
+recursive-include chat_frappe *.json
+recursive-include chat_frappe *.js
+recursive-include chat_frappe *.css
+recursive-include chat_frappe *.html
+recursive-include chat_frappe *.md
+
+recursive-include config *.py
+
+global-exclude *.pyc
+global-exclude __pycache__
